@@ -8,7 +8,7 @@ from .base_agent import BaseAgent
 
 class AnalystAgent(BaseAgent):
     """Agent specialized in data analysis and insights."""
-    
+
     def __init__(
         self,
         agent_id: str,
@@ -16,7 +16,7 @@ class AnalystAgent(BaseAgent):
         system_message: Optional[str] = None,
         api_key: Optional[str] = None,
         model: str = "gpt-4",
-        vector_service: Optional[VectorService] = None
+        vector_service: Optional[VectorService] = None,
     ):
         default_system_message = """You are an analyst agent specialized in analyzing data, 
         identifying patterns, and providing insights. Your role is to:
@@ -25,7 +25,7 @@ class AnalystAgent(BaseAgent):
         - Provide actionable insights
         - Create structured analysis reports
         - Highlight key findings and recommendations"""
-        
+
         super().__init__(
             agent_id=agent_id,
             name=name,
@@ -33,20 +33,20 @@ class AnalystAgent(BaseAgent):
             system_message=system_message or default_system_message,
             api_key=api_key,
             model=model,
-            vector_service=vector_service
+            vector_service=vector_service,
         )
-    
+
     async def process_message(self, message: Message) -> Message:
         """Process an analysis request."""
         self.status = "processing"
-        
+
         try:
             # Generate analysis
             response_content = await self.generate_response(
                 f"Analyze the following: {message.content}\n\n"
                 "Provide a structured analysis with key findings, patterns, and recommendations."
             )
-            
+
             # Create response message
             response = Message(
                 id=f"{message.id}_response",
@@ -56,22 +56,21 @@ class AnalystAgent(BaseAgent):
                 content=response_content,
                 metadata={
                     "analysis_type": message.metadata.get("analysis_type", "general"),
-                    "original_message_id": message.id
+                    "original_message_id": message.id,
                 },
-                reply_to=message.id
+                reply_to=message.id,
             )
-            
+
             return response
-            
+
         finally:
             self.status = "idle"
-    
+
     def get_capabilities(self) -> List[str]:
         """Get analyst capabilities."""
         return [
             "data_analysis",
             "pattern_recognition",
             "insights_generation",
-            "report_creation"
+            "report_creation",
         ]
-

@@ -1,15 +1,15 @@
-# Contributing to Distributed Multi-Agent Communication Platform
+﻿# Contributing to Distributed Multi-Agent Communication Platform
 
 Thank you for your interest in contributing! This document provides guidelines and instructions for contributing to this project.
 
-## 🤝 Code of Conduct
+##  Code of Conduct
 
 - Be respectful and inclusive
 - Welcome newcomers and help them learn
 - Focus on constructive feedback
 - Respect different viewpoints and experiences
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. **Fork the repository**
 2. **Clone your fork**:
@@ -30,7 +30,7 @@ Thank you for your interest in contributing! This document provides guidelines a
    git checkout -b feature/your-feature-name
    ```
 
-## 📝 Development Guidelines
+##  Development Guidelines
 
 ### Code Style
 
@@ -60,7 +60,7 @@ refactor: Simplify message routing logic
 test: Add tests for load balancer
 ```
 
-## 🔄 Pull Request Process
+##  Pull Request Process
 
 1. **Update documentation** if needed
 2. **Add tests** for new functionality
@@ -79,7 +79,7 @@ test: Add tests for load balancer
 - [ ] No breaking changes (or documented if necessary)
 - [ ] Commit messages are clear
 
-## 🐛 Reporting Bugs
+##  Reporting Bugs
 
 When reporting bugs, please include:
 
@@ -90,7 +90,7 @@ When reporting bugs, please include:
 - **Environment**: Python version, OS, dependencies
 - **Logs**: Relevant error messages or logs
 
-## 💡 Suggesting Features
+##  Suggesting Features
 
 Feature suggestions are welcome! Please:
 
@@ -99,14 +99,14 @@ Feature suggestions are welcome! Please:
 - Describe the use case and benefits
 - Provide examples if possible
 
-## 📚 Documentation
+##  Documentation
 
 - Keep README.md updated
 - Add docstrings to new code
 - Update ARCHITECTURE.md for architectural changes
 - Include code examples in documentation
 
-## 🏗️ Architecture Guidelines
+##  Architecture Guidelines
 
 When adding new features:
 
@@ -116,9 +116,9 @@ When adding new features:
 - Consider scalability and performance
 - Maintain separation of concerns
 
-## 📞 Questions?
+##  Questions?
 
 Feel free to open an issue for questions or discussions. We're happy to help!
 
-Thank you for contributing! 🎉
+Thank you for contributing! 
 

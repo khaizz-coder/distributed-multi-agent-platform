@@ -1,4 +1,4 @@
-# 🤖 Distributed Multi-Agent Communication Platform
+#  Distributed Multi-Agent Communication Platform
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
@@ -7,18 +7,18 @@
 
 A production-ready distributed system for multi-agent communication, collaboration, and knowledge sharing. Built with **AutoGen**, featuring real-time **WebSocket** communication, **ChromaDB** vector database integration, **Redis** message queuing, and intelligent agent routing. Enables scalable agent-to-agent collaboration with automatic discovery, load balancing, and knowledge sharing capabilities.
 
-## 🚀 Key Features
+##  Key Features
 
 ### Core Capabilities
 
-- **🌐 Distributed Agent Architecture**: Multiple agents running across different nodes with automatic discovery
-- **⚡ Real-Time Communication**: WebSocket-based agent-to-agent messaging
-- **🔍 Production Vector Database**: ChromaDB integration for semantic search and knowledge retrieval
-- **📨 Message Queue System**: Redis-based message queuing for reliable agent communication
-- **🧭 Intelligent Routing**: Automatic agent discovery and intelligent message routing
-- **⚖️ Load Balancing**: Distribute agent workloads across available nodes
-- **📚 Knowledge Sharing**: Agents can share and retrieve knowledge from a shared vector store
-- **📊 Monitoring Dashboard**: Real-time monitoring of agent activities and system health
+- ** Distributed Agent Architecture**: Multiple agents running across different nodes with automatic discovery
+- ** Real-Time Communication**: WebSocket-based agent-to-agent messaging
+- ** Production Vector Database**: ChromaDB integration for semantic search and knowledge retrieval
+- ** Message Queue System**: Redis-based message queuing for reliable agent communication
+- ** Intelligent Routing**: Automatic agent discovery and intelligent message routing
+- ** Load Balancing**: Distribute agent workloads across available nodes
+- ** Knowledge Sharing**: Agents can share and retrieve knowledge from a shared vector store
+- ** Monitoring Dashboard**: Real-time monitoring of agent activities and system health
 
 ## Features
 
@@ -70,6 +70,25 @@ A production-ready distributed system for multi-agent communication, collaborati
 ```
 
 ## Installation
+
+### Option 1: Using Docker (Recommended)
+
+The easiest way to get started is using Docker Compose:
+
+```bash
+# Clone the repository
+git clone <repository-url>
+cd distributed_agent_platform
+
+# Set up environment variables
+cp env.example .env
+# Edit .env and add your GEMINI_API_KEY
+
+# Start the platform
+docker-compose up --build
+```
+
+### Option 2: Manual Installation
 
 ```bash
 # Clone the repository
@@ -239,7 +258,7 @@ pytest --cov=backend --cov-report=html
 pytest tests/test_agents.py
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework**: FastAPI (async Python web framework)
 - **Agent Framework**: Microsoft AutoGen
@@ -249,7 +268,7 @@ pytest tests/test_agents.py
 - **Embeddings**: Sentence Transformers
 - **Language**: Python 3.9+
 
-## 📈 Use Cases
+##  Use Cases
 
 - **Multi-Agent Research Systems**: Coordinate multiple research agents to gather and synthesize information
 - **Distributed AI Workflows**: Orchestrate complex AI tasks across multiple specialized agents
@@ -257,7 +276,7 @@ pytest tests/test_agents.py
 - **Agent Orchestration**: Manage and coordinate multiple AI agents in production environments
 - **Real-time Agent Communication**: Enable instant messaging between distributed agents
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -267,11 +286,11 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Microsoft AutoGen](https://github.com/microsoft/autogen) for the agent framework
 - [FastAPI](https://fastapi.tiangolo.com/) for the web framework

